@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Clone Atalay-Sezen</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/login.css">
+    <link rel="icon" href="./images/favicon/icons8-instagram-48.png">
+</head>
+<body>
+<section class="wrapper">
+    <div class="phone-screens">
+        <img src="./images/login/phone.png" alt="">
+        <img class="image-phone" id="imagechange" src="./images/login/80b8aebdea57.png" alt="">
+    </div>
+    <div class="login-forms">
+        <form action="">
+            <div class="logo-instagram">
+                <img src="./images/login/instagram-logo.png" alt="">
+            </div>
+            <div class="input-area">
+                <div class="input-user">
+                    <input id="userInput" type="text" onkeypress="validateName()" onprogress="clearAgain()" placeholder="Telefon numarası, kullanıcı adı veya e-posta">
+                </div>
+                <div class="input-password">
+                    <input id="passInput" type="password" placeholder="Şifre" > <span class="password-show" onclick="showPassword()">Göster</span>
+                </div>
+                <div class="button">
+                    <button class="button-login"  id="loginButton" onkeyup="loginForm()">Giriş Yap</button>
+                </div>
+            </div>
+            <div class="login-options">
+                <div class="seperator"></div>
+                <div class="text-seperator">YA DA</div>
+                <div class="seperator"></div>
+            </div>
+            <div class="log-instagram">
+                <div class="log-facebook margin-login">
+                    <i class="fa-brands fa-facebook"></i>                   
+                     <a class="facebook-text">Facebook ile Giriş Yap</a>
+                </div>
+                <div class="forget-pass margin-login">
+                    <a href="#">Şifreni mi unuttun?</a>
+                </div>
+                <div class="register">
+                    <span>Hesabın yok mu? <a href="">
+                        Kaydol
+                    </a></span>
+                </div>
+            </div>
+            <div class="play-app">
+                <span>Uygulamayı indir.</span>
+                <div class="image-block">
+                    <a href="https://apps.apple.com/tr/app/instagram/id389801252" target="_blank">
+                        <img src="./images/login/appstore.png" alt="appstore image">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.instagram.android&hl=tr&gl=US" target="_blank">
+                        <img src="./images/login/googleplay.png" alt="Google play image">
+                    </a>
+                </div>
+            </div>
+        </div>
+        </form>
+        <!---Footer alanına geçiş-->
+</section>
+<footer>
+    <div class="footer-info">
+        <div class="contents">
+            <a href="">Meta</a>
+            <a href="">Hakkında</a>
+            <a href="">Blog</a>
+            <a href="">İş Fırsatları</a>
+            <a href="">Yardım</a>
+            <a href="">API</a>
+            <a href="">Gizlilik</a>
+            <a href="">Koşullar</a>
+            <a href="">Başlıca Hesaplar</a>
+            <a href="">Konu Etiketleri</a>
+            <a href="">Konumlar</a>
+            <a href="">Instagram Lite</a>
+            
+        </div>
+        <div class="contents-2">
+            <a href="">Dans</a>
+            <a href="">Yiyecek ve İçecek</a>
+            <a href="">Ev ve Bahçe</a>
+            <a href="">Müzik</a>
+            <a href="">Görsel Sanatlar</a>        
+        </div>
+        <div class="select-group">
+            <select name="Dil Değiştir" id="">
+                <option value="Türkçe">Türkçe</option>
+                <option value="English">English</option>
+                <option value="English(UK)">English(UK)</option>
+                <option value="Deutsch">Deutsch</option>
+            </select>
+            <span>©<span id="year"></span>  Instagram from Atalay Sezen</span>
+        </div>
+       
+    </div>
+</footer>
+
+
+
+   
+<script src="./scripts/login.js"></script>
+</body>
+</html>
