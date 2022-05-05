@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,23 +13,24 @@
 <section class="wrapper">
     <div class="phone-screens">
         <img src="./images/login/phone.png" alt="">
-        <img class="image-phone" id="imagechange" src="./images/login/80b8aebdea57.png" alt="">
+        <img class="image-phone" id="imagechange" src="./images/login/80b8aebdea57.png" alt="instagram image">
     </div>
     <div class="login-forms">
         <form action="">
             <div class="logo-instagram">
-                <img src="./images/login/instagram-logo.png" alt="">
+                <img src="./images/login/instagram-logo.png" alt="Instagram Logo">
             </div>
             <div class="input-area">
                 <div class="input-user">
-                    <input id="userInput" type="text" onkeypress="validateName()" onprogress="clearAgain()" placeholder="Telefon numarası, kullanıcı adı veya e-posta">
+                    <input id="userInput" type="text" onkeypress="validateName()"  placeholder="Telefon numarası, kullanıcı adı veya e-posta">
                 </div>
                 <div class="input-password">
-                    <input id="passInput" type="password" placeholder="Şifre" > <span class="password-show" onclick="showPassword()">Göster</span>
+                    <input id="passInput" type="password" autocomplete="on" placeholder="Şifre" > <span class="password-show" onclick="showPassword()">Göster</span>
                 </div>
                 <div class="button">
-                    <button class="button-login"  id="loginButton" onkeyup="loginForm()">Giriş Yap</button>
+                    <button type="button" class="button-login" id="loginButton" >Giriş Yap</button>
                 </div>
+               </a>
             </div>
             <div class="login-options">
                 <div class="seperator"></div>
@@ -63,7 +64,6 @@
             </div>
         </div>
         </form>
-        <!---Footer alanına geçiş-->
 </section>
 <footer>
     <div class="footer-info">
@@ -101,10 +101,6 @@
        
     </div>
 </footer>
-
-
-
-   
 <script src="./scripts/login.js"></script>
 </body>
 </html>
