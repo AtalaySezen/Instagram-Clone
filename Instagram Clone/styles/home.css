@@ -118,6 +118,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
   position: relative;
   margin-right: 21rem;
   top: 5rem;
@@ -188,7 +189,6 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 7rem;
-  margin-right: 21rem;
   max-width: 100%;
   height: auto;
 
@@ -197,6 +197,7 @@ body {
 .card{
   position: relative;
   width: 610px;
+  max-width: 100%;
   min-height: 800px;
   background:#fff;
   box-shadow: 15px 15px 60px rgba(0, 0, 0, 0.15);
@@ -308,6 +309,14 @@ body {
   font-weight: 400;
   color: #8e8e8e;
 }
-.none{
-  display: none;
+
+
+
+
+
+
+@media (max-width:800px){
+  .search{
+    display: none;
+  }
 }
