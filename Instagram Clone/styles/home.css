@@ -263,5 +263,51 @@ body {
   cursor: pointer;
 }
 .actionBtns .left img{
+  margin-right: 8px;
+}
+.likes{
+  font-weight: 500;
+  margin-top: 5px;
+  font-size: 16px;
+  color: #4d4d4f;
+}
+.person-name{
+  font-weight: 600;
+  margin-top: 5px;
+  font-size: 14px;
+  color: #262626;
+  line-height: 1.5em;
+}
+.comments{
+  color: #8e8e8e;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 5px;
 
+}
+
+.addComments{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.text{
+  margin-left: 5px;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-weight: 400;
+  font-size: 14px;
+  color: #262626;
+}
+.text::placeholder{
+  color: #8e8e8e;
+}
+.postTime{
+  margin-top: 10px;
+  font-weight: 400;
+  color: #8e8e8e;
+}
+.none{
+  display: none;
 }

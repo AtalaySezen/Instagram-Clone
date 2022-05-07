@@ -67,3 +67,21 @@ function scrollHorizontally(val){
 
   sCont.style.left = currentScrollPosition + "px";
 }
+
+
+
+
+
+
+//Image cards scriptleri
+// let heart = document.querySelector('.heart');
+
+// function likeButton(){
+//   let heart = document.querySelector('.heart');
+//   if(heart.src.match("heart.png")){
+//     heart.src = "share.png";
+//   }
+//   else{
+//     heart.src = "heart.png";
+//   }
+// }
