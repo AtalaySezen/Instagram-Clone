@@ -12,7 +12,7 @@ body {
 }
 
 .nav {
-  position: relative;
+  position: fixed;
   width: 100%;
   height: 60px;
   background-color: #ffffff;
@@ -113,7 +113,75 @@ body {
 .search input::placeholder{
   color: #8e8e8e;
 }
+.instagram-wrapper{
+  width: 100%;
+  max-width: 585px;
+  top: 4rem;
+  height: auto;
+  padding-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  left: -11rem;
+  right: 0;
+  margin: auto;
+}
+.instagram-story{
+  display: flex;
+  margin-top: 9rem;
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+  padding: 10px 16px;
+  border: 1px solid #dbdbdb;
+  width: 100%;
+  max-width: 595px;
+  height: 110px;
+  background-color: #fff;
+  border-radius: 3px;
+}
+.story-1{
+  justify-content: flex-start;
+  position: relative;
+  border-radius: 50%;
+  border: 2px solid #CF2D88;
+  width: 66px;
+  height: 66px;
+  
+}
 
+
+.story-image{  /*Bu alan sonrasında düzeltilecek */
+  width: 56px;
+  height: 56px;
+  margin-top: 3px;
+  margin-left: 2px;
+}
+.story-image img{
+  width: 100%;
+  border-radius: 100%;
+}
+.image-cards{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 22rem;
+}
+.image-1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 10rem;
+  max-width: 580px;
+  height: 600px;
+  background-color: #fff;
+}
 
 
 
