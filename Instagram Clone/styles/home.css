@@ -310,6 +310,20 @@ body {
   color: #8e8e8e;
 }
 
+.profile{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 5rem;
+  right: 19rem;
+}
+.profile img{
+  width: 100px;
+  height: 100px;
+}
+
+
+
 
 
 

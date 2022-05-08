@@ -71,17 +71,8 @@ function scrollHorizontally(val){
 
 
 
+const heartLikes = document.getElementById('likesButton');
 
-
-//Image cards scriptleri
-// let heart = document.querySelector('.heart');
-
-// function likeButton(){
-//   let heart = document.querySelector('.heart');
-//   if(heart.src.match("heart.png")){
-//     heart.src = "share.png";
-//   }
-//   else{
-//     heart.src = "heart.png";
-//   }
-// }
+heartLikes.addEventListener('click',function likes(){
+  
+})
